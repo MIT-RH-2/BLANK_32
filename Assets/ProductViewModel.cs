@@ -146,7 +146,7 @@ public class ProductViewModel : MonoBehaviour
                 visibleMidView.SetActive(false);
                 visibleCloseView.SetActive(false);
             }
-            else if (distanceMeter >= 0.8)
+            else if (distanceMeter >= 0.6)
             {
                 // show high-level info
                 Debug.Log("BLANK: updateVisibleRange: High-level info");
